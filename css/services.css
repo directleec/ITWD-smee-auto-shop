@@ -1,5 +1,5 @@
 .carousel-img-container {
-    height: 700px;
+    height: 600px;
   }
   .carousel-img {
     height: auto; 
@@ -16,7 +16,7 @@
   
 
   .bg-cover {
-    background-image: url(../img/carshop.jpg);
+    background-image: url(../img/mechanic-1.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
