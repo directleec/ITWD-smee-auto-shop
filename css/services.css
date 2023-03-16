@@ -2,6 +2,16 @@
     height: 400px;
   }
   .carousel-img {
-    height: 100%; 
+    height: auto; 
     object-fit: cover; 
+    display: center;
+    max-width: 100%;
+  }
+  .bg-cover {
+    background-image: url(../img/carshop.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: auto;
+    max-width: auto;
   }

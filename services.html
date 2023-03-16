@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="./css/styles.css">
     <link rel="stylesheet" href="./css/services.css">
 </head>
-<body>
+<body class="bg-cover">
     <header class="container-fluid px-0">
         <!-- NAVBAR -->
         <nav class="navbar navbar-dark navbar-expand-lg">
@@ -55,8 +55,8 @@
     </header>
     <!-- MAIN CONTENT -->
     <main>
-    <section class="">
-      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+    <section>
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-indicators">
           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -65,7 +65,7 @@
         <div class="carousel-inner">
           <div class="carousel-item active">
             <div class="d-flex justify-content-center align-items-center carousel-img-container">
-              <img src="./img/auto-shop-1.jpg" class="d-block w-100 carousel-img" alt="...">
+              <img class="carousel-images" src="./img/auto-shop-5.jpg" class="d-block w-100 carousel-img" alt="car shop with cars on lifts">
             </div>
             <div class="carousel-caption d-none d-md-block">
               <h1 class="fw-">Repairs</h1>
@@ -75,7 +75,7 @@
           </div>
           <div class="carousel-item">
             <div class="d-flex justify-content-center align-items-center carousel-img-container">
-              <img class="images d-block mx-auto" src="./img/auto-shop-4.jpg" alt="replacing tire" style="max-width: 100%;">
+              <img class="images d-block mx-auto" src="./img/tire-0.jpg" alt="a new tire on clean pavement" style="max-width: 100%;">
             </div>
             <div class="carousel-caption d-none d-md-block">
               <h1 class="fw-bolder">Tires</h1>
@@ -84,11 +84,11 @@
           </div>
           <div class="carousel-item">
             <div class="d-flex justify-content-center align-items-center carousel-img-container">
-              <img src="./img/auto-shop-5.jpg" class="d-block w-100 carousel-img" alt="...">
+              <img src="./img/car-smog.jpg" class="d-block w-100 carousel-img" alt=" a car exhaust with smoke coming out">
             </div>
             <div class="carousel-caption d-none d-md-block">
               <h1 class="fw-bolder">Smog</h1>
-              <p>At Smee's Auto Shop, we are a STAR-certified smog check station, providing reliable and efficient smog certification services to help you register your vehicle with the DMV and ensure compliance with state emissions regulations.</p>
+              <p> span At Smee's Auto Shop, we are a STAR-certified smog check station, providing reliable and efficient smog certification services to help you register your vehicle with the DMV and ensure compliance with state emissions regulations.</p>
             </div>
           </div>
         </div>
@@ -102,53 +102,53 @@
         </button>
       </div>
     </section>
-    <section class="text-center" id="our-mission">
+    <section class="text-center" id="other-services">
       <h1
         class="text-uppercase border-top border-bottom border-3 text-center fw-bolder heading-theme-color mb-4"
       >
-        Our Services
+        Other Services
       </h1>
       <div class="container text-center">
         <div class="row align-items-start">
           <div class="column">
             <ul class="list-group list-group-flush">
               <li class="list-group-item">
-                Maintenance services: From routine oil changes and tire
+                <h3>Maintenance services:</h3>  From routine oil changes and tire
                 rotations to brake inspections and engine tune-ups, we offer a
                 variety of maintenance services to keep your vehicle in top
                 condition.
               </li>
               <li class="list-group-item">
-                Transmission repair: Our experienced technicians use the
+                <h3>Transmission repair:</h3> Our experienced technicians use the
                 latest equipment and techniques to diagnose and repair
                 transmission issues quickly and efficiently.
               </li>
               <li class="list-group-item">
-                Check engine diagnostics: We use state-of-the-art diagnostic
+                <h3>Check engine diagnostics:</h3> We use state-of-the-art diagnostic
                 equipment to identify and repair issues related to your
                 vehicle's check engine light.
               </li>
               <li class="list-group-item">
-                Smog certification: We are a STAR-certified smog check station
+                <h3>Smog certification:</h3> We are a STAR-certified smog check station
                 and can help you obtain the necessary certification to
                 register your vehicle with the DMV.
               </li>
               <li class="list-group-item">
-                Tire services: We offer a variety of tire services, including
+                <h3>Tire services:</h3> We offer a variety of tire services, including
                 rotation, balance, and sales of new and used tires.
               </li>
               <li class="list-group-item">
-                Brake services: We provide comprehensive brake services,
+                <h3>Brake services:</h3> We provide comprehensive brake services,
                 including inspections, repairs, and replacements.
               </li>
               <li class="list-group-item">
-                Electrical system services: Our technicians can diagnose and
+                <h3>Electrical system services:</h3> Our technicians can diagnose and
                 repair issues related to your vehicle's electrical system,
                 including battery replacement and alternator repair.
               </li>
             </ul>
           </div>
-          <div class="alert alert-dark fst-italic" role="alert">
+          <div class="alert alert-dark fst-italic mt-4" role="alert">
             <p>
             At Smee's Auto Shop, we are committed to providing the highest
             quality services at affordable prices. <br>
@@ -169,15 +169,15 @@
               <section>
                 <h1 class="text-uppercase fw-bolder">Hours of Operation</h1>
                 <ul class="list-unstyled">
-                  <li>Monday: 10 am - 5 pm</li>
-                  <li>Tuesday: 10 am - 5 pm</li>
-                  <li>Wednesday: 10 am - 5pm</li>
-                  <li>Thursday: 10 am - 5 pm</li>
-                  <li>Friday: 10 am - 6 pm</li>
-                  <li>Saturday: 1 pm - 5 pm</li>
-                  <li>Sunday: closed</li>
+                  <li>Monday: <span class="flex-end">10 am - 5 pm</span></li>
+                  <li>Tuesday: <span class="flex-end">10 am - 5 pm</span></li>
+                  <li>Wednesday: <span class="flex-end">10 am - 5pm</span></li>
+                  <li>Thursday: <span class="flex-end">10 am - 5 pm</span></li>
+                  <li>Friday: <span class="flex-end">10 am - 6 pm</span></li>
+                  <li>Saturday: <span class="flex-end">1 pm - 5 pm</span></li>
+                  <li>Sunday: <span class="flex-end">closed</span></li>
                 </ul>
-              </section>
+                
               <section>
                 <h1 class="text-uppercase fw-bolder">Call</h1>
                 <p>
